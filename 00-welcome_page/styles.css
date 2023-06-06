@@ -1,0 +1,10 @@
+body{
+    background-color: #e3b4b1;
+  
+}
+ 
+main {
+    
+    display: grid;
+    place-items: center;
+}

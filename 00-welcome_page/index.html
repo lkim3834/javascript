@@ -1,0 +1,59 @@
+<!-- enter HTML:5 after writing "html"-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- whatever goes for the tab name  -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Leejin (Ian) Kim Portfolio</title>
+</head>
+<body>
+    <header>
+    <!-- <h1>Ian Kim</h1> -->
+    <!-- nav stands for a navigation links -->
+    <!-- <nav>
+         for unordered list, we use ul
+        <ul>
+            for list items we use li 
+            
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav> -->
+    </header>
+    <main>
+            <h2>Leejin (Ian) Kim</h2>
+            <p>Hello ! Recent graduate with a Bachelor of Science in Computer Science from the University of California, Santa Cruzs</p>
+            <!-- img : no closing tag. src meant for source, rendered for the 
+        image -->
+        <!-- alternative text in case it cannot be displayed -->
+            <img src="IMG_5652.jpg" alt="My Image" height = "300" width = "350" >
+            
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <!-- https://www.w3schools.com/html/html_form_input_types.asp -->
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+                <button id ="submit">submit</button>
+            </form>
+
+    </main>
+    <footer>
+        <p>&copy; 2023 My Company. All rights reserved.</p>
+    </footer>
+   
+  
+    <script src = "index.js">
+        
+    </script>
+</body>
+</html>
